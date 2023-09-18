@@ -1,0 +1,112 @@
+[
+	{
+		"title": "Hoodie Galaxy",
+		"description": "Black oversize hoodie, with back stamp",
+		"price": 13000,
+		"code": "PROD1",
+		"stock": 1,
+		"status": "true",
+		"category": "top",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800305/hoodieGalaxy_mfam50.jpg",
+		"id": 1
+	},
+	{
+		"title": "Corset Venus",
+		"description": "Black corset with thin straps",
+		"price": 10200,
+		"code": "PROD2",
+		"stock": 2,
+		"status": "true",
+		"category": "top",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800304/corsetVenus_hsuwrd.jpg",
+		"id": 2
+	},
+	{
+		"title": "Sky Skirt",
+		"description": "Denim skirt with front pockets",
+		"price": 11000,
+		"code": "PROD3",
+		"stock": 3,
+		"status": "true",
+		"category": "bottom",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800306/skySkirt_dkuofw.jpg",
+		"id": 3
+	},
+	{
+		"title": "Saturn Pants",
+		"description": "Straight black leather pant",
+		"price": 14500,
+		"code": "PROD4",
+		"stock": 4,
+		"status": "true",
+		"category": "bottom",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800306/saturnPants_wax3z4.jpg",
+		"id": 4
+	},
+	{
+		"title": "Sun Skirt",
+		"description": "Black charol skirt, with puckers & front slit",
+		"price": 10900,
+		"code": "PROD5",
+		"stock": 5,
+		"status": "true",
+		"category": "bottom",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800307/sunSkirt_f5e0ak.jpg",
+		"id": 5
+	},
+	{
+		"title": "Cosmo Dress",
+		"description": "Super sexy short black strapless leather dress",
+		"price": 14100,
+		"code": "PROD6",
+		"stock": 6,
+		"status": "true",
+		"category": "full",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800303/cosmoDress_e6b1ry.jpg",
+		"id": 6
+	},
+	{
+		"title": "Set Universe",
+		"description": "Black leather skirt & corset set",
+		"price": 19500,
+		"code": "PROD7",
+		"stock": 7,
+		"status": "true",
+		"category": "full",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800306/setUniverse_nrq5ox.jpg",
+		"id": 7
+	},
+	{
+		"title": "Top Mars",
+		"description": "Black long-sleeved top, straight neckline",
+		"price": 8600,
+		"code": "PROD8",
+		"stock": 8,
+		"status": "true",
+		"category": "top",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800307/topMars_ygc58g.jpg",
+		"id": 8
+	},
+	{
+		"title": "Rocket Pants",
+		"description": "Parachute black pant",
+		"price": 12000,
+		"code": "PROD9",
+		"stock": 9,
+		"status": "true",
+		"category": "bottom",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800306/rocketPants_kta0dc.jpg",
+		"id": 9
+	},
+	{
+		"title": "Space Shirt",
+		"description": "GGraphite gray oversize t-shirt",
+		"price": 9800,
+		"code": "PROD10",
+		"stock": 10,
+		"status": "true",
+		"category": "top",
+		"thumbnail": "https://res.cloudinary.com/dqrgdohtt/image/upload/v1687800306/spaceShirt_veoey5.jpg",
+		"id": 10
+	}
+]
