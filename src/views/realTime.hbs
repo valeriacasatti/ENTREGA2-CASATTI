@@ -2,7 +2,7 @@
 
 <div>
   <h3>add product</h3>
-  <form id="addProductForm">
+  <form id="addProductForm" enctype="multipart/form-data">
     <input type="text" placeholder="Title" name="title" />
     <br />
     <input type="text" placeholder="Description" name="description" />
@@ -17,7 +17,8 @@
     <br />
     <input type="text" placeholder="Category" name="category" />
     <br />
-    <input type="text" placeholder="URL image" name="thumbnail" />
+    {{! <input type="text" placeholder="URL image" name="thumbnail" /> }}
+    <input type="file" name="thumbnail" />
     <br />
 
     <button type="submit">add product</button>

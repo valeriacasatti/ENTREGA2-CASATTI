@@ -11,9 +11,17 @@ addProductForm.addEventListener("submit", (e) => {
     jsonData[key] = value;
   }
 
-  jsonData.price = parseInt(jsonData.price);
-  jsonData.stock = parseInt(jsonData.stock);
-  socketClient.emit("addProduct", jsonData);
+  const reader = new FileReader();
+  reader.onload = function () {
+    jsonData.price = parseInt(jsonData.price);
+    jsonData.stock = parseInt(jsonData.stock);
+    jsonData.imageName = jsonData.thumbnail.name;
+    jsonData.imageBuffer = reader.result;
+    socketClient.emit("addProduct", jsonData);
+  };
+  const file = formData.get("thumbnail");
+  reader.readAsDataURL(file);
+
   addProductForm.reset();
 });
 
@@ -21,9 +29,10 @@ socketClient.on("products", (data) => {
   let productElm = "";
 
   data.forEach((product) => {
+    const imagenURI = product.imageBuffer || `/images/${product.thumbnail}`;
     productElm += `
   <li>
- <img src="${product.thumbnail}"  />
+ <img src="${imagenURI}"  />
     <h3>${product.title}</h3>
     <h4>${product.description}</h4>
     <h5>$ ${product.price}</h5>

@@ -39,7 +39,19 @@ io.on("connection", async (socket) => {
 
     socket.on("addProduct", async (dataProduct) => {
       try {
-        await productsService.addProduct(dataProduct);
+        const productToSave = {
+          title: dataProduct.title,
+          description: dataProduct.description,
+          price: dataProduct.price,
+          code: dataProduct.code,
+          stock: dataProduct.stock,
+          status: dataProduct.status,
+          category: dataProduct.category,
+          thumbnail: dataProduct.imageName,
+          imageBuffer: dataProduct.imageBuffer,
+        };
+
+        await productsService.addProduct(productToSave);
 
         const products = await productsService.getProduct();
         socket.emit("products", products);
